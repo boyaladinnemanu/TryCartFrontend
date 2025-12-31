@@ -54,7 +54,7 @@ const UserProvider = ({children})=>{
     const getUsermust=async()=>{
         try{
             const jwtToken = Cookies.get("jwtToken")
-            const response = await axios.get("http://localhost:8000/register/profile",{
+            const response = await axios.get("https://try-cartbackend.vercel.app/register/profile",{
                 headers:{
                     Authorization:`Bearer ${jwtToken}`
                 }
@@ -74,7 +74,7 @@ const UserProvider = ({children})=>{
     const profileupdate=async(data)=>{
         try{
             const jwtToken = Cookies.get("jwtToken")
-            const response = await axios.patch("http://localhost:8000/register/profile",data,{
+            const response = await axios.patch("https://try-cartbackend.vercel.app/register/profile",data,{
                 headers:{
                     Authorization:`Bearer ${jwtToken}`
                 }
@@ -92,7 +92,7 @@ const UserProvider = ({children})=>{
     const favupdate=async(data)=>{
         try{
             const jwtToken = Cookies.get("jwtToken")
-            const response = await axios.patch("http://localhost:8000/register/profile",data,{
+            const response = await axios.patch("https://try-cartbackend.vercel.app/register/profile",data,{
                 headers:{
                     Authorization:`Bearer ${jwtToken}`
                 }
