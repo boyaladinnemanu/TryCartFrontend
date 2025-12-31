@@ -25,7 +25,7 @@ const Myfavorites = () => {
         try {
             const jwtToken = Cookies.get("jwtToken");
             const response = await axios.post(
-                "http://localhost:8000/addproduct/favorites",
+                "https://try-cartbackend.vercel.app/addproduct/favorites",
                 { Ids },
                 {
                     headers: {
