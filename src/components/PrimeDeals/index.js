@@ -35,7 +35,7 @@ const PrimeDeals =()=>{
 
         try{
             const jwtToken = Cookies.get("jwtToken")
-            const response = await axios.get("http://localhost:8000/addproduct/prime",{
+            const response = await axios.get("https://try-cartbackend.vercel.app/addproduct/prime",{
                 headers:{
                     Authorization:`Bearer ${jwtToken}`
                 }}
