@@ -34,7 +34,7 @@ const UserProvider = ({children})=>{
     const getUser=async()=>{
         try{
             const jwtToken = Cookies.get("jwtToken")
-            const response = await axios.get("http://localhost:8000/register/profile",{
+            const response = await axios.get("https://try-cartbackend.vercel.app/register/profile",{
                 headers:{
                     Authorization:`Bearer ${jwtToken}`
                 }
