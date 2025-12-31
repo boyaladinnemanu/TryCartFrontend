@@ -1,0 +1,27 @@
+.try-on-container {
+    position: relative;
+    display: flex;
+    width: 100%; /* Use full width for responsive design */
+    height:100%;
+    max-width: 640px; /* Limit max width for better mobile compatibility */
+    margin: auto;
+  }
+  
+  .webcam {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    border-radius: 8px;
+  }
+  
