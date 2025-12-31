@@ -60,7 +60,7 @@ const LoginForm = ()=>{
     const loginSubmit = async(e)=>{
         e.preventDefault()
         try{
-            const response = await axios.post("http://localhost:8000/login",{username,password});
+            const response = await axios.post("https://try-cartbackend.vercel.app/login",{username,password});
             const jwttoken = await response.data.Jwt_Token
             Cookies.set("jwtToken",jwttoken,{expires:30})
             await getUser()
