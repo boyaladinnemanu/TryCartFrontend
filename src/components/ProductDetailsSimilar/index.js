@@ -21,7 +21,7 @@ const ProductDetailsSimilar =(props)=>{
         try {
             const jwtToken = Cookies.get("jwtToken");
             console.log(product, "....1");
-            const response = await axios.post("http://localhost:8000/addproduct/similarproducts", 
+            const response = await axios.post("https://try-cartbackend.vercel.app/addproduct/similarproducts", 
                 { productIds: product.similarProducts }, 
                 { headers: { Authorization: `Bearer ${jwtToken}` } }
             );
