@@ -12,7 +12,7 @@ const PlansCard =(props)=>{
     const handelPlane = async()=>{
         try{
             const jwtToken = Cookies.get('jwtToken')
-            const response = await axios.patch("http://localhost:8000/makeprime",
+            const response = await axios.patch("https://try-cartbackend.vercel.app/makeprime",
             {},
             {
                 headers:{
