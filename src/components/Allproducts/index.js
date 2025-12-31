@@ -66,7 +66,7 @@ const Allproducts = () => {
 
         const formatedData=async ()=>{
             try{
-                const response = await axios.get("http://localhost:8000/addproduct",{
+                const response = await axios.get("https://try-cartbackend.vercel.app/addproduct",{
                 headers:{
                     Authorization:`Bearer ${jwtToken}`
                 },
