@@ -8,7 +8,7 @@ const Myorders = ()=>{
     const jwtToken = Cookies.get('jwtToken')
     const getdata= async()=>{
         try{
-            const response = await axios.get('http://localhost:8000/orders/myorders',{
+            const response = await axios.get('https://try-cartbackend.vercel.app/orders/myorders',{
                 headers:{
                     Authorization:`Bearer ${jwtToken}`
                 }
