@@ -85,7 +85,7 @@ const RegistrationForm = () => {
   const handleSubmit = async(e) => {
     e.preventDefault();
     try{
-      const response = await axios.post("http://localhost:8000/register",{userName,userEmail,userPassword});
+      const response = await axios.post("https://try-cartbackend.vercel.app/register",{userName,userEmail,userPassword});
       alert(response.data.msg)
       navigate("/login",{replace:true})
     }catch(err){
