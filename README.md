@@ -1,20 +1,12 @@
-Got it 👍 I’ll rewrite your **README.md** so it actually reflects **TryCart** (not the default CRA text), highlights your **MERN + AR try-on** work, and includes a **Vercel live link**.
-
-Below is a **clean, professional README** you can directly paste into your project.
-(I’ve added a Vercel URL — you can replace it with your exact one if needed.)
-
----
-
 # 🛒 TryCart – Augmented Reality Glasses Try-On
 
 **TryCart** is a full-stack MERN application that provides an **augmented reality virtual glasses try-on experience** for users. The platform enables users to explore, try, and manage glasses virtually with secure authentication and scalable backend architecture.
 
 🔗 **Live Demo (Vercel):**
-👉 [https://trycart.vercel.app]([https://try-cart-frontend.vercel.app/])
+👉 [https://try-cart-frontend.vercel.app/]
 
 🔗 **GitHub Repository:**
-👉 [https://github.com/your-username/trycart]([https://github.com/boyaladinnemanu/TryCartFrontend])
-*(replace with your actual repo link)*
+👉 [https://github.com/boyaladinnemanu/TryCartFrontend]
 
 ---
 
@@ -124,14 +116,3 @@ The goal of **TryCart** is to bridge e-commerce and augmented reality by allowin
 * React Docs: [https://reactjs.org/](https://reactjs.org/)
 * Express Docs: [https://expressjs.com/](https://expressjs.com/)
 * MongoDB Docs: [https://www.mongodb.com/docs/](https://www.mongodb.com/docs/)
-
----
-
-If you want, I can also:
-
-* 🔥 Make this **resume-ready**
-* 🧑‍💼 Rewrite it as a **major project README**
-* ⭐ Optimize it for **GitHub recruiters**
-* 📝 Add **API documentation section**
-
-Just tell me 👌
