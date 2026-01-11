@@ -10,10 +10,10 @@ Below is a **clean, professional README** you can directly paste into your proje
 **TryCart** is a full-stack MERN application that provides an **augmented reality virtual glasses try-on experience** for users. The platform enables users to explore, try, and manage glasses virtually with secure authentication and scalable backend architecture.
 
 🔗 **Live Demo (Vercel):**
-👉 [https://trycart.vercel.app]([https://trycart.vercel.app](https://try-cart-frontend.vercel.app/))
+👉 [https://trycart.vercel.app]([https://try-cart-frontend.vercel.app/])
 
 🔗 **GitHub Repository:**
-👉 [https://github.com/your-username/trycart]([https://github.com/your-username/trycart](https://github.com/boyaladinnemanu/TryCartFrontend))
+👉 [https://github.com/your-username/trycart]([https://github.com/boyaladinnemanu/TryCartFrontend])
 *(replace with your actual repo link)*
 
 ---
