@@ -3,10 +3,10 @@
 **TryCart** is a full-stack MERN application that provides an **augmented reality virtual glasses try-on experience** for users. The platform enables users to explore, try, and manage glasses virtually with secure authentication and scalable backend architecture.
 
 🔗 **Live Demo (Vercel):**
-👉 [https://try-cart-frontend.vercel.app/]
+👉 https://try-cart-frontend.vercel.app/
 
 🔗 **GitHub Repository:**
-👉 [https://github.com/boyaladinnemanu/TryCartFrontend]
+👉 https://github.com/boyaladinnemanu/TryCartFrontend
 
 ---
 
